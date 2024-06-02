@@ -57,12 +57,5 @@ export default function Navbar(props) {
 				</DrawerContent>
 			</Drawer>
 		</>
-		// <Breadcrumb>
-		// 	<BreadcrumbItem>
-		// 		<BreadcrumbLink as={ReactRouterLink} href="./pages/home">
-		// 			Home
-		// 		</BreadcrumbLink>
-		// 	</BreadcrumbItem>
-		// </Breadcrumb>
 	);
 }
