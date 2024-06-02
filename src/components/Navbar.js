@@ -49,7 +49,7 @@ export default function Navbar(props) {
 							<Link as={ReactRouterLink} to="/">
 								Introduction
 							</Link>
-							<Link as={ReactRouterLink} to="case_studies">
+							<Link as={ReactRouterLink} to="/case_studies">
 								Case studies
 							</Link>
 						</VStack>
