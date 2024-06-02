@@ -6,6 +6,7 @@ import {
 	GridItem,
 	Text,
 	Image,
+	Flex,
 } from "@chakra-ui/react";
 
 import Navbar from "../components/Navbar.js";
@@ -38,11 +39,18 @@ function Introduction() {
 					</GridItem>
 					<GridItem order={{ base: 1, lg: 2 }}>
 						<Center>
-							<Image
-								objectFit="contain"
-								src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/TrinityDetonation1945GIF.gif/420px-TrinityDetonation1945GIF.gif"
-								alt="Image: &quot;Detonation of the 'gadget', with an estimated yield of 25 kilotons of TNT, and the ensuing mushroom cloud&quot; (from Wikipedia)"
-							/>
+							<Flex direction="column">
+								<Image
+									objectFit="contain"
+									src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/TrinityDetonation1945GIF.gif/420px-TrinityDetonation1945GIF.gif"
+									alt="Gadget detonation image"
+								/>
+								<Text align="center" fontSize="sm" mt="5px" color="gray.500">
+									&quot;Detonation of the 'gadget', with an estimated yield of
+									25 kilotons of TNT, and the ensuing mushroom cloud&quot; (from
+									Wikipedia)
+								</Text>
+							</Flex>
 						</Center>
 					</GridItem>
 				</Grid>
