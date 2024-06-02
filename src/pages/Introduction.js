@@ -25,7 +25,7 @@ function Introduction() {
 				</Center>
 				<Grid templateColumns={{ base: "1fr", md: "repeat(3, 1fr)" }} gap={8}>
 					<GridItem order={{ base: 2, md: 1 }} colSpan={{ base: 1, md: 2 }}>
-						<VStack spacing={5} fontSize="xl">
+						<VStack spacing={5} fontSize="xl" align="start">
 							<Text>
 								On July 16, 1945, at 5:29 A.M., the U.S. sets off its first
 								nuclear weapon test. Codenamed "Trinity" (but sometimes referred
