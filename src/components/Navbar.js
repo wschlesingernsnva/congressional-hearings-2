@@ -26,7 +26,7 @@ export default function Navbar(props) {
 	return (
 		<>
 			<Flex p="15px" align="center">
-				<Button ref={btnRef} onClick={onOpen}>
+				<Button ref={btnRef} onClick={onOpen} variant="outline">
 					View all pages
 				</Button>
 				<Spacer />
