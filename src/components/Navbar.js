@@ -50,7 +50,25 @@ export default function Navbar(props) {
 								Introduction
 							</Link>
 							<Link as={ReactRouterLink} to="/case_studies">
-								Case studies
+								Case Studies
+							</Link>
+							<Link as={ReactRouterLink} to="/case_studies/navy_sailors">
+								Navy Sailors
+							</Link>
+							<Link as={ReactRouterLink} to="/case_studies/cleanup_crews">
+								Cleanup Crews
+							</Link>
+							<Link as={ReactRouterLink} to="/case_studies/castle_bravo">
+								Castle Bravo
+							</Link>
+							<Link as={ReactRouterLink} to="/case_studies/civilian_exposure">
+								Civilian Exposure
+							</Link>
+							<Link
+								as={ReactRouterLink}
+								to="/case_studies/plutonium_experiments"
+							>
+								The Plutonium Experiments
 							</Link>
 						</VStack>
 					</DrawerBody>
