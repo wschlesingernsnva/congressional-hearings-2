@@ -20,8 +20,8 @@ function Introduction() {
 						Introduction: Trinity
 					</Heading>
 				</Center>
-				<Grid templateColumns="repeat(3, 1fr)" gap={8}>
-					<GridItem colSpan={2}>
+				<Grid templateColumns={{ base: "1fr", lg: "repeat(3, 1fr)" }} gap={8}>
+					<GridItem order={{ base: 2, lg: 1 }} colSpan={{ base: 1, lg: 2 }}>
 						<Text fontSize="xl">
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
 							non quam fermentum erat tincidunt tincidunt. Aliquam eu feugiat
@@ -36,12 +36,14 @@ function Introduction() {
 							erat lorem vel risus. Donec eget ligula pharetra, porttitor.
 						</Text>
 					</GridItem>
-					<GridItem>
-						<Image
-							objectFit="contain"
-							src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/TrinityDetonation1945GIF.gif/420px-TrinityDetonation1945GIF.gif"
-							alt="Image: &quot;Detonation of the 'gadget', with an estimated yield of 25 kilotons of TNT, and the ensuing mushroom cloud&quot; (from Wikipedia)"
-						/>
+					<GridItem order={{ base: 1, lg: 2 }}>
+						<Center>
+							<Image
+								objectFit="contain"
+								src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/TrinityDetonation1945GIF.gif/420px-TrinityDetonation1945GIF.gif"
+								alt="Image: &quot;Detonation of the 'gadget', with an estimated yield of 25 kilotons of TNT, and the ensuing mushroom cloud&quot; (from Wikipedia)"
+							/>
+						</Center>
 					</GridItem>
 				</Grid>
 			</Box>
