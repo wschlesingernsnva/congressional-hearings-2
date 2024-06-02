@@ -8,9 +8,7 @@ import theme from "./chakraTheme.js";
 export default function App() {
 	return (
 		<ChakraProvider theme={theme}>
-			<div className="App">
-				<Main />
-			</div>
+			<Main />
 		</ChakraProvider>
 	);
 }
