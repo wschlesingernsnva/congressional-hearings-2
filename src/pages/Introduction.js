@@ -27,12 +27,12 @@ function Introduction() {
 					<GridItem order={{ base: 2, md: 1 }} colSpan={{ base: 1, md: 2 }}>
 						<VStack spacing={5} fontSize="xl" align="start">
 							<Text>
-								On July 16, 1945, at 5:29 A.M., the U.S. sets off its first
-								nuclear weapon test. Codenamed "Trinity" (but sometimes referred
-								to by its nickname, "the gadget"), the experiment is a testament
-								to the politically charged atmosphere of 20th-century America: a
-								rampant fear of communism and the reckless yearning to defend
-								the U.S. from communist takeover at all costs.
+								On July 16, 1945, at 5:29 AM, the U.S. set off its first nuclear
+								weapon test. Codenamed "Trinity" (though sometimes referred to
+								by another nickname, "the gadget"), the experiment is a
+								testament to the politically charged atmosphere of 20th-century
+								America: a rampant fear of communism and the reckless yearning
+								to defend the U.S. from communist takeover at all costs.
 							</Text>
 						</VStack>
 					</GridItem>
