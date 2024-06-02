@@ -11,6 +11,7 @@ import {
 	DrawerCloseButton,
 	useDisclosure,
 	Button,
+	VStack,
 	Link,
 	Flex,
 	Spacer,
@@ -44,9 +45,14 @@ export default function Navbar(props) {
 					<DrawerHeader>ATOMIC GUINEA PIGS</DrawerHeader>
 
 					<DrawerBody>
-						<Link as={ReactRouterLink} href="./pages/Introduction.js">
-							Introduction
-						</Link>
+						<VStack align="start">
+							<Link as={ReactRouterLink} to="/">
+								Introduction
+							</Link>
+							<Link as={ReactRouterLink} to="case_studies">
+								Case studies
+							</Link>
+						</VStack>
 					</DrawerBody>
 				</DrawerContent>
 			</Drawer>
