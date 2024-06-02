@@ -12,6 +12,7 @@ import {
 } from "@chakra-ui/react";
 
 import Navbar from "../components/Navbar.js";
+import NextPageButton from "../components/NextPageButton.js";
 
 function Introduction() {
 	return (
@@ -59,6 +60,7 @@ function Introduction() {
 						</Center>
 					</GridItem>
 				</Grid>
+				<NextPageButton to="/case_studies" />
 			</Box>
 		</>
 	);
