@@ -41,6 +41,7 @@ function Introduction() {
 						<Center>
 							<Flex direction="column">
 								<Image
+									maxHeight="360px"
 									objectFit="contain"
 									src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/TrinityDetonation1945GIF.gif/420px-TrinityDetonation1945GIF.gif"
 									alt="(Detonation image)"
