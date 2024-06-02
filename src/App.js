@@ -4,7 +4,7 @@ import Main from "./Main.js";
 
 import { ChakraProvider } from "@chakra-ui/react";
 
-function App() {
+export default function App() {
 	return (
 		<ChakraProvider>
 			<div className="App">
@@ -13,5 +13,3 @@ function App() {
 		</ChakraProvider>
 	);
 }
-
-export default App;
