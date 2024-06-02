@@ -34,10 +34,10 @@ function Introduction() {
 							<Text>
 								On July 16, 1945, at 5:29 AM, the U.S. set off its first nuclear
 								weapon test. Codenamed "Trinity" (though sometimes referred to
-								by another nickname, "the gadget"), the experiment is a
-								testament to the politically charged atmosphere of 20th-century
-								America: a rampant fear of communism and the reckless drive to
-								defend the U.S. from communist takeover at all costs.
+								as "the gadget"), the experiment is a testament to the
+								politically charged atmosphere of 20th-century America: a
+								rampant fear of communism and the reckless drive to defend the
+								U.S. from communist takeover at all costs.
 							</Text>
 						</VStack>
 					</GridItem>
