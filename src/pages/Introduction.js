@@ -24,7 +24,11 @@ function Introduction() {
 						Introduction: Trinity
 					</Heading>
 				</Center>
-				<Grid templateColumns={{ base: "1fr", md: "repeat(3, 1fr)" }} gap={8}>
+				<Grid
+					autoRows
+					templateColumns={{ base: "1fr", md: "repeat(3, 1fr)" }}
+					gap={8}
+				>
 					<GridItem order={{ base: 2, md: 1 }} colSpan={{ base: 1, md: 2 }}>
 						<VStack spacing={5} fontSize="xl" align="start">
 							<Text>
@@ -32,8 +36,8 @@ function Introduction() {
 								weapon test. Codenamed "Trinity" (though sometimes referred to
 								by another nickname, "the gadget"), the experiment is a
 								testament to the politically charged atmosphere of 20th-century
-								America: a rampant fear of communism and the reckless yearning
-								to defend the U.S. from communist takeover at all costs.
+								America: a rampant fear of communism and the reckless drive to
+								defend the U.S. from communist takeover at all costs.
 							</Text>
 						</VStack>
 					</GridItem>
