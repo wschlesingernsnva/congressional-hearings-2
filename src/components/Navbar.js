@@ -25,12 +25,12 @@ export default function Navbar(props) {
 
 	return (
 		<>
-			<Flex p="15px" pr="23.5px" align="center">
+			<Flex p="15px" align="center">
 				<Button ref={btnRef} onClick={onOpen}>
 					View all pages
 				</Button>
 				<Spacer />
-				<NavbarBreadcrumb path={props.path} />
+				<NavbarBreadcrumb mr="8.5px" path={props.path} />
 			</Flex>
 
 			<Drawer
