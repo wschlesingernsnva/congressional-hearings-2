@@ -21,8 +21,8 @@ function Introduction() {
 						Introduction: Trinity
 					</Heading>
 				</Center>
-				<Grid templateColumns={{ base: "1fr", lg: "repeat(3, 1fr)" }} gap={8}>
-					<GridItem order={{ base: 2, lg: 1 }} colSpan={{ base: 1, lg: 2 }}>
+				<Grid templateColumns={{ base: "1fr", md: "repeat(3, 1fr)" }} gap={8}>
+					<GridItem order={{ base: 2, md: 1 }} colSpan={{ base: 1, md: 2 }}>
 						<Text fontSize="xl">
 							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
 							non quam fermentum erat tincidunt tincidunt. Aliquam eu feugiat
@@ -37,7 +37,7 @@ function Introduction() {
 							erat lorem vel risus. Donec eget ligula pharetra, porttitor.
 						</Text>
 					</GridItem>
-					<GridItem order={{ base: 1, lg: 2 }}>
+					<GridItem order={{ base: 1, md: 2 }}>
 						<Center>
 							<Flex direction="column">
 								<Image
