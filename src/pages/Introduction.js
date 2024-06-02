@@ -7,6 +7,7 @@ import {
 	Text,
 	Image,
 	Flex,
+	Link,
 } from "@chakra-ui/react";
 
 import Navbar from "../components/Navbar.js";
@@ -47,9 +48,14 @@ function Introduction() {
 									alt="(Detonation image)"
 								/>
 								<Text align="center" fontSize="sm" mt="5px" color="gray.500">
-									&quot;Detonation of the 'gadget', with an estimated yield of
-									25 kilotons of TNT, and the ensuing mushroom cloud&quot; (from
-									Wikipedia)
+									{'"'}Detonation of the 'gadget', with an estimated yield of 25
+									kilotons of TNT, and the ensuing mushroom cloud{'" '}
+									<Link
+										color="teal.500"
+										href="https://en.wikipedia.org/w/index.php?title=Trinity_(nuclear_test)&oldid=1223946038"
+									>
+										(from Wikipedia)
+									</Link>
 								</Text>
 							</Flex>
 						</Center>
