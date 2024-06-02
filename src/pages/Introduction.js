@@ -8,6 +8,7 @@ import {
 	Image,
 	Flex,
 	Link,
+	VStack,
 } from "@chakra-ui/react";
 
 import Navbar from "../components/Navbar.js";
@@ -24,19 +25,16 @@ function Introduction() {
 				</Center>
 				<Grid templateColumns={{ base: "1fr", md: "repeat(3, 1fr)" }} gap={8}>
 					<GridItem order={{ base: 2, md: 1 }} colSpan={{ base: 1, md: 2 }}>
-						<Text fontSize="xl">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-							non quam fermentum erat tincidunt tincidunt. Aliquam eu feugiat
-							justo, a lobortis erat. Quisque bibendum massa vel mi varius, ac
-							ullamcorper urna laoreet. Curabitur et enim quam. Morbi nec velit
-							nunc. Praesent gravida augue in ex feugiat, sollicitudin fringilla
-							eros lacinia. Etiam nec iaculis nunc. Pellentesque placerat, lorem
-							elementum vestibulum interdum, leo lectus cursus nulla, a
-							ultricies risus nibh a augue. Vestibulum ac orci feugiat,
-							scelerisque purus quis, dictum nibh. Sed porttitor, nulla ac
-							pellentesque venenatis, tellus velit finibus tellus, in malesuada
-							erat lorem vel risus. Donec eget ligula pharetra, porttitor.
-						</Text>
+						<VStack spacing={5} fontSize="xl">
+							<Text>
+								On July 16, 1945, at 5:29 A.M., the U.S. sets off its first
+								nuclear weapon test. Codenamed "Trinity" (but sometimes referred
+								to by its nickname, "the gadget"), the experiment is a testament
+								to the politically charged atmosphere of 20th-century America: a
+								rampant fear of communism and the reckless yearning to defend
+								the U.S. from communist takeover at all costs.
+							</Text>
+						</VStack>
 					</GridItem>
 					<GridItem order={{ base: 1, md: 2 }}>
 						<Center>
