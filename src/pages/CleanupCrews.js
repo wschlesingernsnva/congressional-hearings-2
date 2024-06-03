@@ -1,5 +1,11 @@
 import Navbar from "../components/Navbar";
+import NextPageButton from "../components/NextPageButton";
 
 export default function CleanupCrews() {
-	return <Navbar path={["Case Studies", "Cleanup Crews"]} />;
+	return (
+		<>
+			<Navbar pageIndex={3} />
+			<NextPageButton pageIndex={4} />
+		</>
+	);
 }

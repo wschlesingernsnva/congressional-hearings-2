@@ -2,6 +2,7 @@ import { ArrowForwardIcon } from "@chakra-ui/icons";
 import { Button, Center, Text } from "@chakra-ui/react";
 
 import { Link as ReactRouterLink } from "react-router-dom";
+import pageList from "../pages/pageList";
 
 export default function NextPageButton(props) {
 	return (
@@ -10,7 +11,7 @@ export default function NextPageButton(props) {
 				my="30px"
 				size="lg"
 				as={ReactRouterLink}
-				to={props.to}
+				to={pageList[props.pageIndex].route}
 				colorScheme="orange"
 				rightIcon={<ArrowForwardIcon />}
 			>

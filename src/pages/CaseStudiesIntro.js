@@ -1,7 +1,11 @@
 import Navbar from "../components/Navbar.js";
+import NextPageButton from "../components/NextPageButton.js";
 
-function CaseStudiesIntro() {
-	return <Navbar path={["Case studies"]} />;
+export default function CaseStudiesIntro() {
+	return (
+		<>
+			<Navbar pageIndex={1} />
+			<NextPageButton pageIndex={2} />
+		</>
+	);
 }
-
-export default CaseStudiesIntro;

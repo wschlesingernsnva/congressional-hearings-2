@@ -14,10 +14,10 @@ import {
 import Navbar from "../components/Navbar.js";
 import NextPageButton from "../components/NextPageButton.js";
 
-function Introduction() {
+export default function Introduction() {
 	return (
 		<>
-			<Navbar path={["Introduction"]} />
+			<Navbar pageIndex={0} />
 			<Box mx="25px">
 				<Center>
 					<Heading size="4xl" mt="15px" mb="50px" color="red.500">
@@ -64,10 +64,8 @@ function Introduction() {
 						</Center>
 					</GridItem>
 				</Grid>
-				<NextPageButton to="/case_studies" />
+				<NextPageButton pageIndex={1} />
 			</Box>
 		</>
 	);
 }
-
-export default Introduction;

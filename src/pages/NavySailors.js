@@ -1,5 +1,11 @@
 import Navbar from "../components/Navbar";
+import NextPageButton from "../components/NextPageButton";
 
 export default function NavySailors() {
-	return <Navbar path={["Case Studies", "Navy Sailors"]} />;
+	return (
+		<>
+			<Navbar pageIndex={2} />
+			<NextPageButton pageIndex={3} />
+		</>
+	);
 }

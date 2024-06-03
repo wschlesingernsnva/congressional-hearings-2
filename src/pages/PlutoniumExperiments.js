@@ -1,5 +1,11 @@
 import Navbar from "../components/Navbar";
+import NextPageButton from "../components/NextPageButton";
 
 export default function PlutoniumExperiments() {
-	return <Navbar path={["Case Studies", "The Plutonium Experiments"]} />;
+	return (
+		<>
+			<Navbar pageIndex={6} />
+			<NextPageButton pageIndex={6} />
+		</>
+	);
 }

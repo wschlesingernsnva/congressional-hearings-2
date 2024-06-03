@@ -15,13 +15,52 @@ import {
 	Link,
 	Flex,
 	Spacer,
+	Text,
 } from "@chakra-ui/react";
 
 import NavbarBreadcrumb from "./NavbarBreadcrumb";
+import { ChevronRightIcon } from "@chakra-ui/icons";
+
+import pageList from "../pages/pageList.js";
+
+function DrawerLink(props) {
+	const indent = (props.page.path.length - 1) * 15;
+	if (props.page.name === props.currentPage.name) {
+		return (
+			<Text textIndent={indent} color="gray.500">
+				<ChevronRightIcon /> {props.page.name}
+			</Text>
+		);
+	} else {
+		return (
+			<Text textIndent={indent}>
+				<ChevronRightIcon color="gray.500" />{" "}
+				<Link as={ReactRouterLink} to={props.page.route}>
+					{props.page.name}
+				</Link>
+			</Text>
+		);
+	}
+}
+
+function AllDrawerLinks(props) {
+	return (
+		<>
+			{pageList.map((thisPage, thisPageIndex) => (
+				<DrawerLink
+					page={thisPage}
+					currentPage={props.currentPage}
+					key={thisPageIndex}
+				/>
+			))}
+		</>
+	);
+}
 
 export default function Navbar(props) {
 	const { isOpen, onOpen, onClose } = useDisclosure();
 	const btnRef = useRef();
+	const currentPage = pageList[props.pageIndex];
 
 	return (
 		<>
@@ -30,7 +69,7 @@ export default function Navbar(props) {
 					View all pages
 				</Button>
 				<Spacer />
-				<NavbarBreadcrumb mr="8.5px" path={props.path} />
+				<NavbarBreadcrumb mr="8.5px" path={currentPage.path} />
 			</Flex>
 
 			<Drawer
@@ -46,30 +85,7 @@ export default function Navbar(props) {
 
 					<DrawerBody>
 						<VStack align="start">
-							<Link as={ReactRouterLink} to="/">
-								Introduction
-							</Link>
-							<Link as={ReactRouterLink} to="/case_studies">
-								Case Studies
-							</Link>
-							<Link as={ReactRouterLink} to="/case_studies/navy_sailors">
-								Navy Sailors
-							</Link>
-							<Link as={ReactRouterLink} to="/case_studies/cleanup_crews">
-								Cleanup Crews
-							</Link>
-							<Link as={ReactRouterLink} to="/case_studies/castle_bravo">
-								Castle Bravo
-							</Link>
-							<Link as={ReactRouterLink} to="/case_studies/civilian_exposure">
-								Civilian Exposure
-							</Link>
-							<Link
-								as={ReactRouterLink}
-								to="/case_studies/plutonium_experiments"
-							>
-								The Plutonium Experiments
-							</Link>
+							<AllDrawerLinks currentPage={currentPage} />
 						</VStack>
 					</DrawerBody>
 				</DrawerContent>
