@@ -1,11 +1,11 @@
+import Introduction from "./pages/1_Introduction";
 import CaseStudiesIntro from "./pages/2_CaseStudiesIntro";
+import NavySailors from "./pages/2a_NavySailors";
+import CleanupCrews from "./pages/2b_CleanupCrews";
 import CastleBravo from "./pages/2c_CastleBravo";
 import CivilianExposure from "./pages/2d_CivilianExposure";
-import CleanupCrews from "./pages/2b_CleanupCrews";
-import GovernmentIntro from "./pages/3_GovernmentIntro";
-import Introduction from "./pages/1_Introduction";
-import NavySailors from "./pages/2a_NavySailors";
 import PlutoniumExperiments from "./pages/2e_PlutoniumExperiments";
+import GovernmentIntro from "./pages/3_GovernmentIntro";
 
 const pageList = [
 	{
