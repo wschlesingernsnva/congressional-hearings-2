@@ -13,17 +13,14 @@ import {
 
 import Navbar from "../components/Navbar.js";
 import NextPageButton from "../components/NextPageButton.js";
+import MainHeading from "../components/MainHeading.js";
 
 export default function Introduction() {
 	return (
 		<>
 			<Navbar pageIndex={0} />
 			<Box mx="25px">
-				<Center>
-					<Heading size="4xl" mt="15px" mb="50px" color="red.500">
-						Introduction: Trinity
-					</Heading>
-				</Center>
+				<MainHeading level={1} color="red.500" text="Introduction: Trinity" />
 				<Grid
 					autoRows
 					templateColumns={{ base: "1fr", md: "repeat(3, 1fr)" }}

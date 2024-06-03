@@ -9,7 +9,7 @@ export default function Main() {
 				<Route
 					key={thisPageIndex}
 					path={thisPage.route}
-					element={thisPage.element}
+					element={<thisPage.element />}
 				/>
 			))}
 		</Routes>
