@@ -1,4 +1,5 @@
 import { Box } from "@chakra-ui/react";
+
 import Navbar from "../components/Navbar";
 import NextPageButton from "../components/NextPageButton";
 import MainHeading from "../components/MainHeading";
