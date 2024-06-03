@@ -30,10 +30,11 @@ export default function Introduction() {
 							<Text>
 								On July 16, 1945, at 5:29 AM, the U.S. set off its first nuclear
 								weapon test. Codenamed "Trinity" (though sometimes referred to
-								as "the gadget"), the experiment is a testament to the
-								politically charged atmosphere of 20th-century America: a
-								rampant fear of communism and the reckless drive to defend the
-								U.S. from communist takeover at all costs.
+								as "the gadget"), the experiment was intended to determine
+								whether its complex design (called "Fat Man") would function.
+								The same design was used later on August 9th of the same year
+								when the U.S. dropped its second atomic bomb on Nagasaki City in
+								Japan, ending World War II.
 							</Text>
 						</VStack>
 					</GridItem>
