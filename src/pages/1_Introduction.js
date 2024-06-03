@@ -37,9 +37,13 @@ export default function Introduction() {
 								weapon test. Codenamed "Trinity" (though sometimes referred to
 								as "the gadget"), the experiment was intended to determine
 								whether its complex design (called "Fat Man") would function.
-								The same design was used later on August 9th of the same year
+								The same design was used later, on August 9th of the same year,
 								when the U.S. dropped its second atomic bomb on Nagasaki City in
-								Japan, ending World War II.
+								Japan, ending World War II. However, atomic spy Klaus Fuchs soon
+								leaked the Trinity design to Russia, and Russia detonated its
+								first atomic bomb on August 29th, 1949. With the Soviets now
+								becoming a nuclear rival, the U.S. began to escalate its
+								nuclear-weapon testing.
 							</Text>
 							<Text>
 								Nuclear testing would soon become a ______________________, but
@@ -48,11 +52,11 @@ export default function Introduction() {
 								nuclear testing guidelines due to radiation hazards, but even
 								after the implementation of those guidelines, no effort was made
 								to evacuate those living in the nearby area. The negligence the
-								government exerted in regard to those who may have been harmed
-								by radiation from the nuclear explosion marked the beginning of
-								what would soon spiral into several nation-wide scandals
-								surrounding the health of Americans in the face of the
-								government’s obsession with nuclear testing.
+								government exerted in regard to those who may have been
+								unhealthily impacted by radiation from the nuclear explosion
+								marked the beginning of what would soon spiral into several
+								nation-wide scandals surrounding the health of Americans in the
+								face of the government’s obsession with nuclear testing.
 							</Text>
 						</VStack>
 					</GridItem>
