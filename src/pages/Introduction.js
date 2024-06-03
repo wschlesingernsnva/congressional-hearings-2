@@ -1,5 +1,4 @@
 import {
-	Heading,
 	Center,
 	Box,
 	Grid,
