@@ -1,7 +1,7 @@
 import { Center, Heading } from "@chakra-ui/react";
 
 const headingSizes = ["4xl", "2xl"];
-const bottomMargins = ["50px", "35px"];
+const bottomMargins = ["50px", "40px"];
 
 export default function MainHeading(props) {
 	return (
