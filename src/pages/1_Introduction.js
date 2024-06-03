@@ -41,6 +41,19 @@ export default function Introduction() {
 								when the U.S. dropped its second atomic bomb on Nagasaki City in
 								Japan, ending World War II.
 							</Text>
+							<Text>
+								Nuclear testing would soon become a ______________________, but
+								______________________. Thousands of people lived within a range
+								of Trinity’s explosion that would later be prohibited under
+								nuclear testing guidelines due to radiation hazards, but even
+								after the implementation of those guidelines, no effort was made
+								to evacuate those living in the nearby area. The negligence the
+								government exerted in regard to those who may have been harmed
+								by radiation from the nuclear explosion marked the beginning of
+								what would soon spiral into several nation-wide scandals
+								surrounding the health of Americans in the face of the
+								government’s obsession with nuclear testing.
+							</Text>
 						</VStack>
 					</GridItem>
 					<GridItem order={{ base: 1, md: 2 }}>
