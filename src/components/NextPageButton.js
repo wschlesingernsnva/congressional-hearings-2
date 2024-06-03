@@ -2,7 +2,7 @@ import { ArrowForwardIcon } from "@chakra-ui/icons";
 import { Button, Center, Text } from "@chakra-ui/react";
 
 import { Link as ReactRouterLink } from "react-router-dom";
-import pageList from "../pages/pageList";
+import pageList from "../pageList";
 
 export default function NextPageButton(props) {
 	return (

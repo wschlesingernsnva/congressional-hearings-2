@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 
-import pageList from "./pages/pageList";
+import pageList from "./pageList";
 
 export default function Main() {
 	return (

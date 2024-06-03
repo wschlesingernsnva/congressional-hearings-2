@@ -21,7 +21,7 @@ import {
 import NavbarBreadcrumb from "./NavbarBreadcrumb";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 
-import pageList from "../pages/pageList.js";
+import pageList from "../pageList.js";
 
 function DrawerLink(props) {
 	const indent = (props.page.path.length - 1) * 15;
