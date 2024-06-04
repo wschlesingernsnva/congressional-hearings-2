@@ -185,8 +185,8 @@ export default function Introduction() {
 							</Text>
 						</VStack>
 					</GridItem>
-					<GridItem order={6} colSpan={{ lg: 3 }}>
-						<VStack>
+					<GridItem order={6} colSpan={{ lg: 3 }} align="center">
+						<VStack width={{ base: "100%", md: "95%", lg: "100%", xl: "95%" }}>
 							<Grid
 								width="100%"
 								gridAutoRows="min-content"
