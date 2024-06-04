@@ -26,7 +26,7 @@ export default function PlutoniumExperiments() {
 					text="5: The Plutonium Experiments"
 				/>
 				<Grid
-					autoRows
+					gridAutoRows="min-content"
 					templateColumns={{
 						base: "1fr",
 						lg: "2fr 1fr 2fr",
@@ -131,7 +131,11 @@ export default function PlutoniumExperiments() {
 						</VStack>
 					</GridItem>
 					<GridItem order={4}>
-						<Grid autoRows templateColumns="repeat(2, 1fr)" gap={2.5}>
+						<Grid
+							gridAutoRows="min-content"
+							templateColumns="repeat(2, 1fr)"
+							gap={2.5}
+						>
 							<GridItem colSpan={2}>
 								<Image
 									width="100%"
@@ -191,7 +195,11 @@ export default function PlutoniumExperiments() {
 						</Flex>
 					</GridItem>
 					<GridItem order={{ base: 6, lg: 5 }}>
-						<Grid autoRows templateColumns="repeat(2, 1fr)" gap={2.5}>
+						<Grid
+							gridAutoRows="min-content"
+							templateColumns="repeat(2, 1fr)"
+							gap={2.5}
+						>
 							<GridItem colSpan={2}>
 								<Image
 									width="100%"

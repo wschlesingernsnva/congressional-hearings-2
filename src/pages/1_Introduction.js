@@ -11,7 +11,7 @@ export default function Introduction() {
 			<Box mx="25px" fontSize="xl">
 				<MainHeading level={1} color="red.500" text="Introduction: Trinity" />
 				<Grid
-					autoRows
+					gridAutoRows="min-content"
 					templateColumns={{
 						base: "1fr",
 						lg: "2fr 1fr 2fr",

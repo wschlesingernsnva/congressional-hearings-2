@@ -21,7 +21,7 @@ export default function Enewetak() {
 			<Box mx="25px" fontSize="xl">
 				<MainHeading level={2} color="blue.400" text="1: Enewetak Atoll" />
 				<Grid
-					autoRows
+					gridAutoRows="min-content"
 					templateColumns={{ base: "1fr", md: "repeat(3, 1fr)" }}
 					gap={8}
 				>
