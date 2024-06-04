@@ -193,7 +193,7 @@ export default function PlutoniumExperiments() {
 									width="100%"
 									objectFit="contain"
 									src={require("../assets/eda charlton quote.png")}
-									alt='(Quote reading "Do you suppose that stuff anything to me?")'
+									alt='(Quote reading "Do you suppose that stuff did anything to me?")'
 								/>
 							</GridItem>
 							<GridItem>
