@@ -175,7 +175,7 @@ export default function Introduction() {
 							</Text>
 						</VStack>
 					</GridItem>
-					<GridItem order={{ base: 7, lg: 6 }} colSpan={{ lg: 2 }}>
+					<GridItem order={6} colSpan={{ lg: 3 }}>
 						<VStack spacing={5} textAlign="justify">
 							<Text>
 								<Text as="i">Able</Text> may have been a failure, but{" "}
@@ -188,25 +188,29 @@ export default function Introduction() {
 							</Text>
 						</VStack>
 					</GridItem>
-					<GridItem order={{ base: 6, lg: 7 }}>
-						<Grid autoRows templateColumns="1fr" gap={2.5}>
-							<GridItem>
-								<video
-									muted
-									autoPlay
-									loop
-									playsInline
-									disablePictureInPicture
-									width="100%"
-								>
-									<source
-										type="video/mp4"
-										src={require("../assets/videos/baker-c.mp4")}
-									/>
-								</video>
-							</GridItem>
-							<GridItem>
-								<VStack>
+					<GridItem order={7} colSpan={{ lg: 3 }}>
+						<VStack>
+							<Grid
+								gridAutoRows="min-content"
+								templateColumns={{ base: "1fr", lg: "repeat(2, 1fr)" }}
+								gap={2.5}
+							>
+								<GridItem>
+									<video
+										muted
+										autoPlay
+										loop
+										playsInline
+										disablePictureInPicture
+										width="100%"
+									>
+										<source
+											type="video/mp4"
+											src={require("../assets/videos/baker-c.mp4")}
+										/>
+									</video>
+								</GridItem>
+								<GridItem>
 									<video
 										muted
 										autoPlay
@@ -220,21 +224,21 @@ export default function Introduction() {
 											src={require("../assets/videos/baker-2-c.mp4")}
 										/>
 									</video>
-									<Text align="center" fontSize="sm" mt="5px" color="gray.500">
-										<Text as="i">Baker ___________</Text> (
-										<Link
-											color="teal.500"
-											href="https://archive.org/details/trinity-and-beyond"
-											target="_blank"
-											rel="noopener noreferrer"
-										>
-											<Text as="i">Trinity and Beyond</Text>
-										</Link>
-										)
-									</Text>
-								</VStack>
-							</GridItem>
-						</Grid>
+								</GridItem>
+							</Grid>
+							<Text align="center" fontSize="sm" mt="5px" color="gray.500">
+								<Text as="i">Baker ___________</Text> (
+								<Link
+									color="teal.500"
+									href="https://archive.org/details/trinity-and-beyond"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<Text as="i">Trinity and Beyond</Text>
+								</Link>
+								)
+							</Text>
+						</VStack>
 					</GridItem>
 					<GridItem order={8} colSpan={{ lg: 3 }}>
 						<VStack spacing={5} textAlign="justify">
