@@ -8,7 +8,7 @@ export default function Introduction() {
 	return (
 		<>
 			<Navbar pageIndex={0} />
-			<Box mx="8%" fontSize="xl">
+			<Box mx={{ base: 5, md: "5%" }} fontSize="xl">
 				<MainHeading level={1} color="red.500" text="Introduction: Trinity" />
 				<Grid
 					width="100%"
@@ -20,7 +20,7 @@ export default function Introduction() {
 					}}
 					gap={8}
 				>
-					<GridItem order={{ base: 2, lg: 1 }} colSpan={{ base: 1, lg: 2 }}>
+					<GridItem order={{ base: 2, lg: 1 }} colSpan={{ lg: 2 }}>
 						<VStack spacing={5} textAlign="justify">
 							<Text>
 								On July 16, 1945, at 5:29 AM, the first nuclear bomb exploded in
@@ -98,7 +98,7 @@ export default function Introduction() {
 							</Text>
 						</VStack>
 					</GridItem>
-					<GridItem order={3} colSpan={{ base: 1, lg: 3 }}>
+					<GridItem order={3} colSpan={{ lg: 3 }}>
 						<MainHeading level={3} align="start" text="Operation Crossroads" />
 						<VStack spacing={5} textAlign="justify">
 							<Text>
@@ -164,7 +164,7 @@ export default function Introduction() {
 							</Text>
 						</VStack>
 					</GridItem>
-					<GridItem order={5} colSpan={{ base: 1, lg: 2 }}>
+					<GridItem order={5} colSpan={{ lg: 2 }}>
 						<VStack spacing={5} textAlign="justify">
 							<Text>
 								However, when <Text as="i">Able</Text> was fired on July 1, it

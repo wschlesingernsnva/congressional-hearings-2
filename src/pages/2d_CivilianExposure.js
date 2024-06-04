@@ -8,7 +8,7 @@ export default function CivilianExposure() {
 	return (
 		<>
 			<Navbar pageIndex={5} />
-			<Box mx="25px" fontSize="xl">
+			<Box mx={{ base: 5, md: "5%" }} fontSize="xl">
 				<MainHeading level={2} color="green.400" text="4: Civilian Exposure" />
 			</Box>
 			<NextPageButton pageIndex={6} />

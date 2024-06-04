@@ -19,7 +19,7 @@ export default function PlutoniumExperiments() {
 	return (
 		<>
 			<Navbar pageIndex={6} />
-			<Box px="30px" fontSize="xl">
+			<Box mx={{ base: 5, md: "5%" }} fontSize="xl">
 				<MainHeading
 					level={2}
 					color="purple.400"
@@ -35,7 +35,7 @@ export default function PlutoniumExperiments() {
 					}}
 					gap={8}
 				>
-					<GridItem order={1} colSpan={{ base: 1, lg: 3 }}>
+					<GridItem order={1} colSpan={{ lg: 3 }}>
 						<VStack spacing={5} textAlign="justify">
 							<Text>
 								In 1987, Eileen Welsome, a reporter for{" "}
@@ -70,10 +70,10 @@ export default function PlutoniumExperiments() {
 							</Text>
 						</VStack>
 					</GridItem>
-					<GridItem order={2} colSpan={{ base: 1, lg: 3 }}>
+					<GridItem order={2} colSpan={{ lg: 3 }}>
 						<Divider />
 					</GridItem>
-					<GridItem order={3} colSpan={{ base: 1, lg: 2 }}>
+					<GridItem order={3} colSpan={{ lg: 2 }}>
 						<MainHeading level={3} align="start" text="Albert Stevens" />
 						<VStack spacing={5} textAlign="justify" mb={8}>
 							<Text>
@@ -240,7 +240,7 @@ export default function PlutoniumExperiments() {
 							</GridItem>
 						</Grid>
 					</GridItem>
-					<GridItem order={{ base: 5, lg: 6 }} colSpan={{ base: 1, lg: 2 }}>
+					<GridItem order={{ base: 5, lg: 6 }} colSpan={{ lg: 2 }}>
 						<MainHeading level={3} align="start" text="Eda Charlton" />
 						<VStack spacing={5} textAlign="justify">
 							<Text>
@@ -259,7 +259,7 @@ export default function PlutoniumExperiments() {
 							</Text>
 						</VStack>
 					</GridItem>
-					<GridItem order={7} colSpan={{ base: 1, lg: 3 }}>
+					<GridItem order={7} colSpan={{ lg: 3 }}>
 						<Text align="justify">
 							The victims had been given no compensation by the government prior
 							to Welsome's revelatory publications nearly fifty years later,

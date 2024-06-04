@@ -18,7 +18,7 @@ export default function Enewetak() {
 	return (
 		<>
 			<Navbar pageIndex={2} />
-			<Box mx="25px" fontSize="xl">
+			<Box mx={{ base: 5, md: "5%" }} fontSize="xl">
 				<MainHeading level={2} color="blue.400" text="1: Enewetak Atoll" />
 				<Grid
 					width="100%"
@@ -26,7 +26,7 @@ export default function Enewetak() {
 					templateColumns={{ base: "1fr", md: "repeat(3, 1fr)" }}
 					gap={8}
 				>
-					<GridItem order={{ base: 2, md: 1 }} colSpan={{ base: 1, md: 2 }}>
+					<GridItem order={{ base: 2, md: 1 }} colSpan={{ md: 2 }}>
 						<VStack
 							spacing={5}
 							align={{ base: "start", md: "end" }}
@@ -35,7 +35,7 @@ export default function Enewetak() {
 							<Text>FILLER TEXT</Text>
 						</VStack>
 					</GridItem>
-					<GridItem order={{ base: 1, md: 2 }}>
+					<GridItem order={{ md: 2 }}>
 						<Center>
 							<Flex direction="column">
 								<Image

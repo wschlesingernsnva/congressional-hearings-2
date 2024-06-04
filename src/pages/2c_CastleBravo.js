@@ -8,7 +8,7 @@ export default function CastleBravo() {
 	return (
 		<>
 			<Navbar pageIndex={4} />
-			<Box mx="25px" fontSize="xl">
+			<Box mx={{ base: 5, md: "5%" }} fontSize="xl">
 				<MainHeading level={2} color="pink.500" text="3: Castle Bravo" />
 			</Box>
 			<NextPageButton pageIndex={5} />

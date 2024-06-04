@@ -8,7 +8,7 @@ export default function CaseStudiesIntro() {
 	return (
 		<>
 			<Navbar pageIndex={1} />
-			<Box mx="25px" fontSize="xl">
+			<Box mx={{ base: 5, md: "5%" }} fontSize="xl">
 				<MainHeading level={1} color="yellow.400" text="Case Studies" />
 			</Box>
 			<NextPageButton pageIndex={2} />

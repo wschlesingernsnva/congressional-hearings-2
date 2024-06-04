@@ -8,7 +8,7 @@ export default function CleanupCrews() {
 	return (
 		<>
 			<Navbar pageIndex={3} />
-			<Box mx="25px" fontSize="xl">
+			<Box mx={{ base: 5, md: "5%" }} fontSize="xl">
 				<MainHeading level={2} color="green.400" text="2: Cleanup Crews" />
 			</Box>
 			<NextPageButton pageIndex={4} />
