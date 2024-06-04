@@ -1,14 +1,4 @@
-import {
-	Center,
-	Box,
-	Grid,
-	GridItem,
-	Text,
-	Image,
-	Flex,
-	Link,
-	VStack,
-} from "@chakra-ui/react";
+import { Box, Grid, GridItem, Text, Link, VStack } from "@chakra-ui/react";
 
 import Navbar from "../components/Navbar.js";
 import NextPageButton from "../components/NextPageButton.js";
@@ -22,15 +12,19 @@ export default function Introduction() {
 				<MainHeading level={1} color="red.500" text="Introduction: Trinity" />
 				<Grid
 					autoRows
-					templateColumns={{ base: "1fr", md: "repeat(3, 1fr)" }}
+					templateColumns={{
+						base: "1fr",
+						lg: "2fr 1fr 2fr",
+						"2xl": "0.55fr 1fr 0.55fr",
+					}}
 					gap={8}
 				>
-					<GridItem order={{ base: 2, md: 1 }} colSpan={{ base: 1, md: 2 }}>
+					<GridItem order={{ base: 2, lg: 1 }} colSpan={{ base: 1, lg: 2 }}>
 						<VStack spacing={5} textAlign="justify">
 							<Text>
 								On July 16, 1945, at 5:29 AM, the first nuclear bomb exploded in
 								New Mexico. Codenamed <Text as="i">Trinity</Text>, this titanic
-								fireball was the capstone of the United States' Manhattan
+								fireball was the capstone of the United States's Manhattan
 								Project, demonstrating a functional design for a plutonium-based
 								nuclear weapon. The very same design (nicknamed the "Fat Man")
 								along with a slightly different uranium-based design (nicknamed
@@ -74,7 +68,36 @@ export default function Introduction() {
 							</Text>
 						</VStack>
 					</GridItem>
-					<GridItem order={3} colSpan={{ base: 1, md: 2 }}>
+					<GridItem order={{ base: 1, lg: 2 }}>
+						<VStack>
+							<video
+								muted
+								autoPlay
+								loop
+								playsInline
+								disablePictureInPicture
+								width="100%"
+							>
+								<source
+									type="video/mp4"
+									src={require("../assets/videos/trinity-c.mp4")}
+								/>
+							</video>
+							<Text align="center" fontSize="sm" mt="5px" color="gray.500">
+								Detonation of <Text as="i">Trinity</Text> (from{" "}
+								<Link
+									color="teal.500"
+									href="https://archive.org/details/trinity-and-beyond"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<Text as="i">Trinity and Beyond</Text>
+								</Link>
+								)
+							</Text>
+						</VStack>
+					</GridItem>
+					<GridItem order={3} colSpan={{ base: 1, lg: 3 }}>
 						<MainHeading level={3} align="start" text="Operation Crossroads" />
 						<VStack spacing={5} textAlign="justify">
 							<Text>
@@ -94,7 +117,7 @@ export default function Introduction() {
 								TNT or its associated explosives." Soon enough, a joint task
 								force was formed, and despite pushback from scientists,
 								diplomats, and the public,{" "}
-								<Text as="i">Operation Crossroads</Text> began on July 1, 1946
+								<Text as="i">Operation Crossroads</Text> began on July 1, 1946,
 								at Bikini Atoll in the Marshall Islands.
 							</Text>
 							<Text>
@@ -103,57 +126,126 @@ export default function Introduction() {
 								23 kilotons, comparable to the 21-kiloton Fat Man bomb dropped
 								on Nagasaki City. The stated purpose of the two tests was to
 								determine the effects of nuclear devices in the context of naval
-								combat, and as such, they were tested on a fleet of
+								combat, so they were tested on a fleet of unoccupied,
 								decommissioned ships. <Text as="i">Able</Text> was to be dropped
 								from a plane and detonated, creating an airburst explosion above
 								the surface of the water, while <Text as="i">Baker</Text> would
 								detonate beneath the surface of the water.
 							</Text>
+						</VStack>
+					</GridItem>
+					<GridItem order={4}>
+						<VStack>
+							<video
+								muted
+								autoPlay
+								loop
+								playsInline
+								disablePictureInPicture
+								width="100%"
+							>
+								<source
+									type="video/mp4"
+									src={require("../assets/videos/able-c.mp4")}
+								/>
+							</video>
+							<Text align="center" fontSize="sm" mt="5px" color="gray.500">
+								Shot <Text as="i">Able</Text> (
+								<Link
+									color="teal.500"
+									href="https://archive.org/details/trinity-and-beyond"
+									target="_blank"
+									rel="noopener noreferrer"
+								>
+									<Text as="i">Trinity and Beyond</Text>
+								</Link>
+								)
+							</Text>
+						</VStack>
+					</GridItem>
+					<GridItem order={5} colSpan={{ base: 1, lg: 2 }}>
+						<VStack spacing={5} textAlign="justify">
 							<Text>
 								However, when <Text as="i">Able</Text> was fired on July 1, it
-								missed the intended target of the decommissioned ships by over
+								missed the intended target (the decommissioned ships) by over
 								two-thousand feet, greatly reducing the usefulness of the test.
 								Despite this setback, the state of the warships was assessed,
 								data was collected, and shot <Text as="i">Baker</Text> proceeded
 								on July 25.
 							</Text>
+						</VStack>
+					</GridItem>
+					<GridItem order={{ base: 7, lg: 6 }} colSpan={{ lg: 2 }}>
+						<VStack spacing={5} textAlign="justify">
 							<Text>
-								<Text as="i">Baker</Text> was a disaster, releasing a massive
-								amount of unexpected nuclear contamination and fallout. This
-								contamination prevented any further tests with the fleet used
-								for <Text as="i">Able</Text> and <Text as="i">Baker</Text> and
-								made the water around Bikini Atoll so radioactive that the
+								<Text as="i">Able</Text> may have been a failure, but{" "}
+								<Text as="i">Baker</Text> was a sheer disaster, releasing a
+								massive amount of unexpected nuclear contamination and fallout.
+								This contamination prevented any further tests with the fleet
+								used for <Text as="i">Able</Text> and <Text as="i">Baker</Text>{" "}
+								and made the water around Bikini Atoll so radioactive that the
 								island became completely uninhabitable for decades.
-							</Text>
-							<Text>
-								Faced with these two warnings about the dangers of nuclear
-								testing and continuous protestation from scientists and others,
-								the United States would go on to conduct at least two-hundred
-								more tests in the atmosphere and underwater.
 							</Text>
 						</VStack>
 					</GridItem>
-					<GridItem order={{ base: 1, md: 2 }}>
-						<Center>
-							<Flex direction="column">
-								<Image
+					<GridItem order={{ base: 6, lg: 7 }}>
+						<Grid autoRows templateColumns="1fr" gap={2.5}>
+							<GridItem>
+								<video
+									muted
+									autoPlay
+									loop
+									playsInline
+									disablePictureInPicture
 									width="100%"
-									objectFit="contain"
-									src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/TrinityDetonation1945GIF.gif/420px-TrinityDetonation1945GIF.gif"
-									alt="(Detonation image)"
-								/>
-								<Text align="center" fontSize="sm" mt="5px" color="gray.500">
-									{'"'}Detonation of the 'gadget', with an estimated yield of 25
-									kilotons of TNT, and the ensuing mushroom cloud{'" '}
-									<Link
-										color="teal.500"
-										href="https://en.wikipedia.org/w/index.php?title=Trinity_(nuclear_test)&oldid=1223946038"
+								>
+									<source
+										type="video/mp4"
+										src={require("../assets/videos/baker-c.mp4")}
+									/>
+								</video>
+							</GridItem>
+							<GridItem>
+								<VStack>
+									<video
+										muted
+										autoPlay
+										loop
+										playsInline
+										disablePictureInPicture
+										width="100%"
 									>
-										(from Wikipedia)
-									</Link>
-								</Text>
-							</Flex>
-						</Center>
+										<source
+											type="video/mp4"
+											src={require("../assets/videos/baker-2-c.mp4")}
+										/>
+									</video>
+									<Text align="center" fontSize="sm" mt="5px" color="gray.500">
+										<Text as="i">Baker ___________</Text> (
+										<Link
+											color="teal.500"
+											href="https://archive.org/details/trinity-and-beyond"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											<Text as="i">Trinity and Beyond</Text>
+										</Link>
+										)
+									</Text>
+								</VStack>
+							</GridItem>
+						</Grid>
+					</GridItem>
+					<GridItem order={8} colSpan={{ lg: 3 }}>
+						<VStack spacing={5} textAlign="justify">
+							<Text>
+								Faced with these two warnings about the dangers of nuclear
+								testing and under continuous protestation from scientists,
+								diplomats, artists, and the public, the United States would go
+								on to conduct at least two-hundred more tests in the atmosphere
+								and underwater.
+							</Text>
+						</VStack>
 					</GridItem>
 				</Grid>
 				<NextPageButton pageIndex={1} />
