@@ -121,7 +121,7 @@ export default function Introduction() {
 								at Bikini Atoll in the Marshall Islands.
 							</Text>
 							<Text>
-								The tests were codenamed <Text as="i">Able</Text>and{" "}
+								The tests were codenamed <Text as="i">Able</Text> and{" "}
 								<Text as="i">Baker</Text>, and both bombs had a yield of around
 								23 kilotons, comparable to the 21-kiloton Fat Man bomb dropped
 								on Nagasaki City. The stated purpose of the two tests was to
