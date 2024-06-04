@@ -153,7 +153,7 @@ export default function PlutoniumExperiments() {
 									width="100%"
 									objectFit="contain"
 									src={require("../assets/radiation killed doctors title.png")}
-									alt='(Headline reading "Radiation Killed Doctors Who Did Human Experiments")'
+									alt='(Headline that reads, "Radiation Killed Doctors Who Did Human Experiments")'
 								/>
 							</GridItem>
 							<GridItem>
@@ -170,7 +170,7 @@ export default function PlutoniumExperiments() {
 										width="100%"
 										objectFit="contain"
 										src={require("../assets/patricia durbin quote.png")}
-										alt="(Quote reading )"
+										alt="(Quote from Patricia Durbin)"
 									/>
 									<Text align="center" fontSize="sm" mt="5px" color="gray.500">
 										FILLER TEXT{" "}
