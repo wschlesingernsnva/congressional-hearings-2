@@ -254,7 +254,7 @@ export default function PlutoniumExperiments() {
 							</Text>
 						</VStack>
 					</GridItem>
-					<GridItem order={7} colSpan={{ base: 1, md: 3 }}>
+					<GridItem order={7} colSpan={{ base: 1, lg: 3 }}>
 						<Text align="justify">
 							The victims had been given no compensation by the government prior
 							to Welsome's revelatory publications nearly fifty years later,
