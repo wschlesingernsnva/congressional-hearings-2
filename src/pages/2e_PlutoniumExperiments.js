@@ -26,6 +26,7 @@ export default function PlutoniumExperiments() {
 					text="5: The Plutonium Experiments"
 				/>
 				<Grid
+					width="100%"
 					gridAutoRows="min-content"
 					templateColumns={{
 						base: "1fr",
@@ -132,6 +133,7 @@ export default function PlutoniumExperiments() {
 					</GridItem>
 					<GridItem order={4}>
 						<Grid
+							width="100%"
 							gridAutoRows="min-content"
 							templateColumns="repeat(2, 1fr)"
 							gap={2.5}
@@ -196,6 +198,7 @@ export default function PlutoniumExperiments() {
 					</GridItem>
 					<GridItem order={{ base: 6, lg: 5 }}>
 						<Grid
+							width="100%"
 							gridAutoRows="min-content"
 							templateColumns="repeat(2, 1fr)"
 							gap={2.5}

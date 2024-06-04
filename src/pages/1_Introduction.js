@@ -11,6 +11,7 @@ export default function Introduction() {
 			<Box mx="25px" fontSize="xl">
 				<MainHeading level={1} color="red.500" text="Introduction: Trinity" />
 				<Grid
+					width="100%"
 					gridAutoRows="min-content"
 					templateColumns={{
 						base: "1fr",
@@ -191,6 +192,7 @@ export default function Introduction() {
 					<GridItem order={7} colSpan={{ lg: 3 }}>
 						<VStack>
 							<Grid
+								width="100%"
 								gridAutoRows="min-content"
 								templateColumns={{ base: "1fr", lg: "repeat(2, 1fr)" }}
 								gap={2.5}
