@@ -8,7 +8,7 @@ export default function Introduction() {
 	return (
 		<>
 			<Navbar pageIndex={0} />
-			<Box mx="25px" fontSize="xl">
+			<Box mx="8%" fontSize="xl">
 				<MainHeading level={1} color="red.500" text="Introduction: Trinity" />
 				<Grid
 					width="100%"
