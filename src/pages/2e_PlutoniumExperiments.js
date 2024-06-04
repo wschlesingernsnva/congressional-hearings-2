@@ -70,7 +70,7 @@ export default function PlutoniumExperiments() {
 					</GridItem>
 					<GridItem order={3} colSpan={{ base: 1, lg: 2 }}>
 						<MainHeading level={3} align="start" text="Albert Stevens" />
-						<VStack spacing={5} fontSize="xl" textAlign="justify" mb={8}>
+						<VStack spacing={5} textAlign="justify" mb={8}>
 							<Text>
 								In 1945, Albert Stevens ("CAL-1"), having just moved with his
 								family to California, was misdiagnosed with terminal stomach
@@ -109,7 +109,7 @@ export default function PlutoniumExperiments() {
 							</Text>
 						</VStack>
 						<MainHeading level={3} align="start" text="Elmer Allen" />
-						<VStack spacing={5} fontSize="xl" textAlign="justify">
+						<VStack spacing={5} textAlign="justify">
 							<Text>
 								[Stuff about Elmer Allen] Lorem ipsum dolor sit amet,
 								consectetur adipiscing elit. Ut et metus vitae nulla hendrerit
@@ -237,7 +237,7 @@ export default function PlutoniumExperiments() {
 					</GridItem>
 					<GridItem order={{ base: 5, lg: 6 }} colSpan={{ base: 1, lg: 2 }}>
 						<MainHeading level={3} align="start" text="Eda Charlton" />
-						<VStack spacing={5} fontSize="xl" textAlign="justify">
+						<VStack spacing={5} textAlign="justify">
 							<Text>
 								[Stuff about Eda Charlton] Lorem ipsum dolor sit amet,
 								consectetur adipiscing elit. Ut et metus vitae nulla hendrerit
