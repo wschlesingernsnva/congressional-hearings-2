@@ -27,7 +27,11 @@ export default function PlutoniumExperiments() {
 				/>
 				<Grid
 					autoRows
-					templateColumns={{ base: "1fr", lg: "1.75fr 1fr 1.75fr" }}
+					templateColumns={{
+						base: "1fr",
+						lg: "2fr 1fr 2fr",
+						"2xl": "0.55fr 1fr 0.55fr",
+					}}
 					gap={8}
 				>
 					<GridItem order={1} colSpan={{ base: 1, lg: 3 }}>
