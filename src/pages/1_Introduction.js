@@ -18,7 +18,7 @@ export default function Introduction() {
 	return (
 		<>
 			<Navbar pageIndex={0} />
-			<Box mx="25px">
+			<Box mx="25px" fontSize="xl">
 				<MainHeading level={1} color="red.500" text="Introduction: Trinity" />
 				<Grid
 					autoRows

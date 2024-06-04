@@ -4,7 +4,7 @@ const headingSizes = ["4xl", "2xl", "lg"];
 const bottomMargins = [
 	{ base: "45px", md: "50px" },
 	{ base: "35px", md: "40px" },
-	"0px",
+	"14px",
 ];
 
 export default function MainHeading(props) {

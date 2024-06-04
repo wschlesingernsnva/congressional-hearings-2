@@ -1,6 +1,6 @@
 import Introduction from "./pages/1_Introduction";
 import CaseStudiesIntro from "./pages/2_CaseStudiesIntro";
-import NavySailors from "./pages/2a_NavySailors";
+import Enewetak from "./pages/2a_Enewetak";
 import CleanupCrews from "./pages/2b_CleanupCrews";
 import CastleBravo from "./pages/2c_CastleBravo";
 import CivilianExposure from "./pages/2d_CivilianExposure";
@@ -24,7 +24,7 @@ const pageList = [
 		name: "Navy Sailors",
 		route: "/case_studies/navy_sailors",
 		path: ["Case Studies", "Navy Sailors"],
-		element: NavySailors,
+		element: Enewetak,
 	},
 	{
 		name: "Cleanup Crews",

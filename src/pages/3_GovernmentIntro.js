@@ -8,7 +8,7 @@ export default function GovernmentIntro() {
 	return (
 		<>
 			<Navbar pageIndex={7} />
-			<Box mx="25px">
+			<Box mx="25px" fontSize="xl">
 				<MainHeading
 					level={1}
 					color="yellow.400"
