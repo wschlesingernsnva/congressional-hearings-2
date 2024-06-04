@@ -174,10 +174,6 @@ export default function Introduction() {
 								collected, and shot <Text as="i">Baker</Text> proceeded on July
 								25.
 							</Text>
-						</VStack>
-					</GridItem>
-					<GridItem order={6} colSpan={{ lg: 3 }}>
-						<VStack spacing={5} textAlign="justify">
 							<Text>
 								<Text as="i">Able</Text> may have been a failure, but{" "}
 								<Text as="i">Baker</Text> was a sheer disaster, releasing a
@@ -189,7 +185,7 @@ export default function Introduction() {
 							</Text>
 						</VStack>
 					</GridItem>
-					<GridItem order={7} colSpan={{ lg: 3 }}>
+					<GridItem order={6} colSpan={{ lg: 3 }}>
 						<VStack>
 							<Grid
 								width="100%"
@@ -242,7 +238,7 @@ export default function Introduction() {
 							</Text>
 						</VStack>
 					</GridItem>
-					<GridItem order={8} colSpan={{ lg: 3 }}>
+					<GridItem order={7} colSpan={{ lg: 3 }}>
 						<VStack spacing={5} textAlign="justify">
 							<Text>
 								Faced with these two warnings about the dangers of nuclear
