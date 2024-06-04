@@ -229,7 +229,7 @@ export default function Introduction() {
 								</GridItem>
 							</Grid>
 							<Text align="center" fontSize="sm" mt="5px" color="gray.500">
-								<Text as="i">Baker ___________</Text> (
+								Shot <Text as="i">Baker</Text> (
 								<Link
 									color="teal.500"
 									href="https://archive.org/details/trinity-and-beyond"
