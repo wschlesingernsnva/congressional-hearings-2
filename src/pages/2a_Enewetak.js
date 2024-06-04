@@ -38,14 +38,14 @@ export default function Enewetak() {
 						<Center>
 							<Flex direction="column">
 								<Image
-									maxHeight="360px"
+									width="100%"
 									objectFit="contain"
 									src="https://i0.wp.com/revealnews.org/wp-content/uploads/2016/05/wayne_brooks_1959_gun_station_crop.jpg?w=903&ssl=1"
 									alt="(Wayne Brooks in 1958)"
 								/>
 								<Image
 									mt="10px"
-									maxHeight="360px"
+									width="100%"
 									objectFit="contain"
 									src="https://i0.wp.com/revealnews.org/wp-content/uploads/2016/05/wayne-brooks.png?resize=1024%2C576&ssl=1"
 									alt="(Wayne Brooks in 1958)"
