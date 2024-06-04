@@ -135,8 +135,8 @@ export default function Introduction() {
 							</Text>
 						</VStack>
 					</GridItem>
-					<GridItem order={4}>
-						<VStack>
+					<GridItem order={4} colSpan={{ lg: 3 }} align="center">
+						<VStack width={{ base: "100%", md: "75%", lg: "60%", xl: "50%" }}>
 							<video
 								muted
 								autoPlay
@@ -164,15 +164,15 @@ export default function Introduction() {
 							</Text>
 						</VStack>
 					</GridItem>
-					<GridItem order={5} colSpan={{ lg: 2 }}>
+					<GridItem order={5} colSpan={{ lg: 3 }}>
 						<VStack spacing={5} textAlign="justify">
 							<Text>
-								However, when <Text as="i">Able</Text> was fired on July 1, it
-								missed the intended target (the decommissioned ships) by over
-								two-thousand feet, greatly reducing the usefulness of the test.
-								Despite this setback, the state of the warships was assessed,
-								data was collected, and shot <Text as="i">Baker</Text> proceeded
-								on July 25.
+								When <Text as="i">Able</Text> was fired on July 1, it missed the
+								intended target (the decommissioned ships) by over two-thousand
+								feet, greatly reducing the usefulness of the test. Despite this
+								setback, the state of the warships was assessed, data was
+								collected, and shot <Text as="i">Baker</Text> proceeded on July
+								25.
 							</Text>
 						</VStack>
 					</GridItem>
