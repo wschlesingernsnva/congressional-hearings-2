@@ -31,7 +31,7 @@ export default function PlutoniumExperiments() {
 					gap={8}
 				>
 					<GridItem order={1} colSpan={{ base: 1, lg: 3 }}>
-						<VStack spacing={5} align="center" textAlign="justify">
+						<VStack spacing={5} textAlign="justify">
 							<Text>
 								In 1987, Eileen Welsome, a reporter for{" "}
 								<Text as="i">The Albuquerque Tribune</Text>, discovered
@@ -127,12 +127,7 @@ export default function PlutoniumExperiments() {
 						</VStack>
 					</GridItem>
 					<GridItem order={4}>
-						<Grid
-							autoRows
-							templateColumns="repeat(2, 1fr)"
-							gap={2.5}
-							align="center"
-						>
+						<Grid autoRows templateColumns="repeat(2, 1fr)" gap={2.5}>
 							<GridItem colSpan={2}>
 								<Image
 									width="100%"
@@ -192,12 +187,7 @@ export default function PlutoniumExperiments() {
 						</Flex>
 					</GridItem>
 					<GridItem order={{ base: 6, lg: 5 }}>
-						<Grid
-							autoRows
-							templateColumns="repeat(2, 1fr)"
-							gap={2.5}
-							align="center"
-						>
+						<Grid autoRows templateColumns="repeat(2, 1fr)" gap={2.5}>
 							<GridItem colSpan={2}>
 								<Image
 									width="100%"
