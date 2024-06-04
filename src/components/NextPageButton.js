@@ -8,7 +8,7 @@ export default function NextPageButton(props) {
 	return (
 		<Center>
 			<Button
-				my="30px"
+				my={12}
 				size="lg"
 				as={ReactRouterLink}
 				to={pageList[props.pageIndex].route}
