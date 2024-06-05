@@ -253,7 +253,7 @@ export default function Introduction() {
 						<Grid
 							width={{ base: "100%", md: "95%", lg: "100%", xl: "95%" }}
 							gridAutoRows="min-content"
-							templateColumns={{ base: "1fr", lg: "repeat(5, 1fr)" }}
+							templateColumns={{ base: "1fr", lg: "repeat(3, 1fr)" }}
 							gap={2.5}
 						>
 							<GridItem>
@@ -268,21 +268,6 @@ export default function Introduction() {
 									<source
 										type="video/mp4"
 										src={require("../assets/videos/space-nukes-c.mp4")}
-									/>
-								</video>
-							</GridItem>
-							<GridItem>
-								<video
-									muted
-									autoPlay
-									loop
-									playsInline
-									disablePictureInPicture
-									width="100%"
-								>
-									<source
-										type="video/mp4"
-										src={require("../assets/videos/generic-test-c.mp4")}
 									/>
 								</video>
 							</GridItem>
@@ -312,22 +297,7 @@ export default function Introduction() {
 								>
 									<source
 										type="video/mp4"
-										src={require("../assets/videos/generic-water-test-c.mp4")}
-									/>
-								</video>
-							</GridItem>
-							<GridItem>
-								<video
-									muted
-									autoPlay
-									loop
-									playsInline
-									disablePictureInPicture
-									width="100%"
-								>
-									<source
-										type="video/mp4"
-										src={require("../assets/videos/xray-c.mp4")}
+										src={require("../assets/videos/generic-test-c.mp4")}
 									/>
 								</video>
 							</GridItem>
