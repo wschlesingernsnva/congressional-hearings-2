@@ -1,12 +1,9 @@
 import {
 	Box,
 	Divider,
-	Flex,
 	Grid,
 	GridItem,
-	HStack,
 	Image,
-	Link,
 	Text,
 	VStack,
 } from "@chakra-ui/react";
@@ -36,7 +33,7 @@ export default function PlutoniumExperiments() {
 					gap={8}
 				>
 					<GridItem order={1} colSpan={{ lg: 3 }}>
-						<VStack spacing={5} textAlign="justify">
+						<VStack spacing={5} align="start" textAlign="justify">
 							<Text>
 								In 1987, Eileen Welsome, a reporter for{" "}
 								<Text as="i">The Albuquerque Tribune</Text>, discovered
@@ -79,7 +76,7 @@ export default function PlutoniumExperiments() {
 							align="start"
 							text="Albert Stevens and Elmer Allen"
 						/>
-						<VStack spacing={5} textAlign="justify">
+						<VStack spacing={5} align="start" textAlign="justify">
 							<Text>
 								In May 1945, Albert Stevens ("CAL-1"), having just moved with
 								his family to California, was misdiagnosed with terminal stomach
@@ -225,7 +222,6 @@ export default function PlutoniumExperiments() {
 									</Text>
 								</VStack>
 							</GridItem>
-
 							<GridItem>
 								<Image
 									width="100%"
@@ -251,7 +247,7 @@ export default function PlutoniumExperiments() {
 					</GridItem>
 					<GridItem order={{ base: 5, lg: 6 }} colSpan={{ lg: 2 }}>
 						<MainHeading level={3} align="start" text="Eda Charlton" />
-						<VStack spacing={5} textAlign="justify">
+						<VStack spacing={5} align="start" textAlign="justify">
 							<Text>
 								Eda Charlton ("HP-3") was an experimentee injected in November
 								1945. Her husband had just died from a tragic heart attack the
@@ -265,7 +261,7 @@ export default function PlutoniumExperiments() {
 								alone in her house, she snacked on peanuts and candy, then went
 								to bed early." Doctors theorized her swelling was caused by
 								hypoproteinemia, a condition in which a deficiency of protein
-								circulates through one’s blood.
+								circulates through one's blood.
 							</Text>
 							<Text>
 								After starting on the hospital's high-protein, low-salt diet,

@@ -21,7 +21,7 @@ export default function Introduction() {
 					gap={8}
 				>
 					<GridItem order={{ base: 2, lg: 1 }} colSpan={{ lg: 2 }}>
-						<VStack spacing={5} textAlign="justify">
+						<VStack spacing={5} align="start" textAlign="justify">
 							<Text>
 								On July 16, 1945, at 5:29 AM, the first nuclear bomb exploded in
 								New Mexico. Codenamed <Text as="i">Trinity</Text>, this titanic
@@ -100,7 +100,7 @@ export default function Introduction() {
 					</GridItem>
 					<GridItem order={3} colSpan={{ lg: 3 }}>
 						<MainHeading level={3} align="start" text="Operation Crossroads" />
-						<VStack spacing={5} textAlign="justify">
+						<VStack spacing={5} align="start" textAlign="justify">
 							<Text>
 								The first postwar nuclear test had been planned before a single
 								nuclear weapon was ever built. In June 1945, a month before
@@ -165,7 +165,7 @@ export default function Introduction() {
 						</VStack>
 					</GridItem>
 					<GridItem order={5} colSpan={{ lg: 3 }}>
-						<VStack spacing={5} textAlign="justify">
+						<VStack spacing={5} align="start" textAlign="justify">
 							<Text>
 								When <Text as="i">Able</Text> was fired on July 1, it missed the
 								intended target (the decommissioned ships) by over two-thousand
@@ -239,7 +239,7 @@ export default function Introduction() {
 						</VStack>
 					</GridItem>
 					<GridItem order={7} colSpan={{ lg: 3 }}>
-						<VStack spacing={5} textAlign="justify">
+						<VStack spacing={5} align="start" textAlign="justify">
 							<Text>
 								Faced with these two warnings about the dangers of nuclear
 								testing and under continuous protestation from scientists,
