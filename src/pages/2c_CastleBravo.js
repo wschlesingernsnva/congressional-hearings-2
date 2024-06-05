@@ -160,7 +160,7 @@ export default function CastleBravo() {
 								expected to be mostly passive, instead underwent fission,
 								splitting into additional neutrons and alpha particles,
 								massively increasing the power and efficiency of the reaction.
-								The result was a detonation so powerful it remains the largest
+								The result was a detonation so powerful, it remains the largest
 								American nuclear test to this day and is second in the world
 								only to a series of Soviet tests in Novaya Zemlya (including the
 								infamous Tsar Bomba).
