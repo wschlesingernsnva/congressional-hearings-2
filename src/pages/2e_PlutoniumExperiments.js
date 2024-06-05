@@ -122,6 +122,9 @@ export default function PlutoniumExperiments() {
 								nearly as much as Stevens had received. Scientists collected
 								tissue samples from Allen to use for research surrounding the
 								nature of the spread of plutonium throughout the human body.
+								Allen developed various illnesses and went his whole life with
+								neither him nor his family knowing he had been used as a test
+								subject in the plutonium experiments.
 							</Text>
 						</VStack>
 					</GridItem>
