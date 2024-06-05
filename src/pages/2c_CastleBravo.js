@@ -110,12 +110,12 @@ export default function CastleBravo() {
 								the fusion reaction.
 							</Text>
 							<Text>
-								Fusion-related calculations at the time were extremely
-								laborious, and somewhat inaccurate, so physicists were not
-								certain if lithium deuteride would work as well as their
-								calculations predicted, or at all. To probe the feasibility of
-								lithium deuteride, a test of a lithium deuteride fusion weapon
-								was scheduled for March 1, 1954, codenamed{" "}
+								Fusion-related calculations at the time were extremely laborious
+								and somewhat inaccurate, so physicists were not certain if
+								lithium deuteride would work as well as their calculations
+								predicted, or at all. To probe the feasibility of lithium
+								deuteride, a test of a lithium deuteride fusion weapon was
+								scheduled for March 1, 1954, codenamed{" "}
 								<Text as="i">Castle Bravo</Text>, with an intended max yield of
 								5 megatons.
 							</Text>
