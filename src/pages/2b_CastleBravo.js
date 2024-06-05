@@ -15,9 +15,10 @@ import MainHeading from "../components/MainHeading";
 export default function CastleBravo() {
 	return (
 		<>
-			<Navbar pageIndex={4} />
+			<Navbar pageIndex={2} />
 			<Box mx={{ base: 5, md: "5%" }} fontSize="xl">
-				<MainHeading level={2} color="pink.500" text="3: Castle Bravo" />
+				<MainHeading level={1} color="yellow.400" text="Case Studies" />
+				<MainHeading level={2} color="pink.500" text="2 — Castle Bravo" />
 				<Grid
 					width="100%"
 					gridAutoRows="min-content"
@@ -228,7 +229,7 @@ export default function CastleBravo() {
 					</GridItem>
 				</Grid>
 			</Box>
-			<NextPageButton pageIndex={5} />
+			<NextPageButton pageIndex={3} />
 		</>
 	);
 }

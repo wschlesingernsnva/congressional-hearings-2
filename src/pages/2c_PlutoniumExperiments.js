@@ -15,12 +15,13 @@ import MainHeading from "../components/MainHeading";
 export default function PlutoniumExperiments() {
 	return (
 		<>
-			<Navbar pageIndex={6} />
+			<Navbar pageIndex={3} />
 			<Box mx={{ base: 5, md: "5%" }} fontSize="xl">
+				<MainHeading level={1} color="yellow.400" text="Case Studies" />
 				<MainHeading
 					level={2}
 					color="purple.400"
-					text="5: The Plutonium Experiments"
+					text="3 — The Plutonium Experiments"
 				/>
 				<Grid
 					width="100%"
@@ -314,7 +315,7 @@ export default function PlutoniumExperiments() {
 				</Grid>
 			</Box>
 
-			<NextPageButton pageIndex={7} />
+			<NextPageButton pageIndex={4} />
 		</>
 	);
 }

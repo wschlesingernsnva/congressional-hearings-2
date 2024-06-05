@@ -17,9 +17,10 @@ import MainHeading from "../components/MainHeading";
 export default function Enewetak() {
 	return (
 		<>
-			<Navbar pageIndex={2} />
+			<Navbar pageIndex={1} />
 			<Box mx={{ base: 5, md: "5%" }} fontSize="xl">
-				<MainHeading level={2} color="blue.400" text="1: Enewetak Atoll" />
+				<MainHeading level={1} color="yellow.400" text="Case Studies" />
+				<MainHeading level={2} color="blue.400" text="1 — Enewetak Atoll" />
 				<Grid
 					width="100%"
 					gridAutoRows="min-content"
@@ -65,7 +66,7 @@ export default function Enewetak() {
 					</GridItem>
 				</Grid>
 			</Box>
-			<NextPageButton pageIndex={3} />
+			<NextPageButton pageIndex={2} />
 		</>
 	);
 }
