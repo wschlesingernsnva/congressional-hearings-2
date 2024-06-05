@@ -44,8 +44,8 @@ export default function PlutoniumExperiments() {
 								a series of covert human rights violations committed by the U.S.
 								government in the name of nuclear research. From 1945 to 1947,
 								several unknowing Americans had been injected with plutonium, a
-								radioactive chemical used in some nuclear weaponry, by doctors
-								and scientists, typically while undergoing surgery or otherwise
+								radioactive chemical used in nuclear weaponry, by doctors and
+								scientists, typically while undergoing surgery or otherwise
 								unconscious. The names of the victims were encoded in the
 								documents she found, demonstrating the secrecy exercised by the
 								U.S. government throughout the various nuclear scandals. Her
