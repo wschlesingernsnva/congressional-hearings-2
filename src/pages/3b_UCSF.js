@@ -14,7 +14,7 @@ export default function UCSF() {
 					color="yellow.400"
 					text="Government Intervention"
 				/>
-				<MainHeading level={2} color="yellow.400" text="The UCSF Committee" />
+				<MainHeading level={2} color="orange.400" text="The UCSF Committee" />
 				{/* CHANGE
 				COLOR
 				*/}

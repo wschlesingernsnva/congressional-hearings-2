@@ -14,10 +14,7 @@ export default function ACHRE() {
 					color="yellow.400"
 					text="Government Intervention"
 				/>
-				<MainHeading level={2} color="yellow.400" text="The ACHRE" />
-				{/* CHANGE
-				COLOR
-				*/}
+				<MainHeading level={2} color="red.400" text="The ACHRE" />
 				<VStack spacing={5} align="start" textAlign="justify">
 					<Text>
 						Even today, some scientists, notably some of those involved, have
