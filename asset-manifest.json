@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/congressional-hearings-2/static/css/main.81d2e40d.css",
-    "main.js": "/congressional-hearings-2/static/js/main.d0a6e199.js",
+    "main.js": "/congressional-hearings-2/static/js/main.deceac7b.js",
     "static/js/453.8ade761d.chunk.js": "/congressional-hearings-2/static/js/453.8ade761d.chunk.js",
     "static/media/generic-tests-2-c.mp4": "/congressional-hearings-2/static/media/generic-tests-2-c.93db054d3a9bb2c300ef.mp4",
     "static/media/castle-bravo.mp4": "/congressional-hearings-2/static/media/castle-bravo.2f98b58d512ec82732d2.mp4",
@@ -26,11 +26,11 @@
     "static/media/the boat ride home.jpg": "/congressional-hearings-2/static/media/the boat ride home.b9c8e37b8a52aef1fd0f.jpg",
     "index.html": "/congressional-hearings-2/index.html",
     "main.81d2e40d.css.map": "/congressional-hearings-2/static/css/main.81d2e40d.css.map",
-    "main.d0a6e199.js.map": "/congressional-hearings-2/static/js/main.d0a6e199.js.map",
+    "main.deceac7b.js.map": "/congressional-hearings-2/static/js/main.deceac7b.js.map",
     "453.8ade761d.chunk.js.map": "/congressional-hearings-2/static/js/453.8ade761d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.81d2e40d.css",
-    "static/js/main.d0a6e199.js"
+    "static/js/main.deceac7b.js"
   ]
 }
