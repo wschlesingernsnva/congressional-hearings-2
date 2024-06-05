@@ -60,7 +60,7 @@ export default function PlutoniumExperiments() {
 							</Text>
 							<Text>
 								Each part opens with a dramatic introduction, aiming to capture
-								the reader's attention: “Some compare it to Nazi war atrocities.
+								the reader's attention: "Some compare it to Nazi war atrocities.
 								Others say it had to be done to understand the dangers of a
 								powerful new element that launched the Atomic Age. Eighteen
 								ordinary people were injected with plutonium without their
@@ -74,23 +74,26 @@ export default function PlutoniumExperiments() {
 						<Divider />
 					</GridItem>
 					<GridItem order={3} colSpan={{ lg: 2 }}>
-						<MainHeading level={3} align="start" text="Albert Stevens" />
-						<VStack spacing={5} textAlign="justify" mb={8}>
+						<MainHeading
+							level={3}
+							align="start"
+							text="Albert Stevens and Elmer Allen"
+						/>
+						<VStack spacing={5} textAlign="justify">
 							<Text>
-								In 1945, Albert Stevens ("CAL-1"), having just moved with his
-								family to California, was misdiagnosed with terminal stomach
+								In May 1945, Albert Stevens ("CAL-1"), having just moved with
+								his family to California, was misdiagnosed with terminal stomach
 								cancer. Doctors told him and his children that he had six months
 								to live, and they recommended a surgical operation, during which
 								he was secretly injected with a mixture of plutonium-238 and
 								plutonium-239—with the highest radiation dose given to anyone
-								over the course of the eighteen plutonium trials. Soon,
-								scientists and doctors would begin to collect urine and fecal
-								samples to send off to Los Alamos Scientific Laboratory, the
-								same laboratory used to build the first atomic bomb. The
-								plutonium levels in the samples were measured as part of a study
-								to determine the rate at which the human body would dispense
-								itself of the chemical. His data was compiled with others' in a
-								classified report,{" "}
+								throughout the eighteen plutonium trials. Soon, scientists and
+								doctors would begin to collect urine and fecal samples to send
+								off to Los Alamos Scientific Laboratory, the same laboratory
+								used to build the first atomic bomb. The plutonium levels in the
+								samples were measured as part of a study to determine the rate
+								at which the human body would dispense itself of the chemical.
+								His data was compiled with others' in a classified report,{" "}
 								<Text as="i">
 									A Comparison of the Metabolism of Plutonium in Man and the Rat
 								</Text>
@@ -103,7 +106,8 @@ export default function PlutoniumExperiments() {
 								who was in charge of Stevens's injection, died twelve years
 								later—in nearly half the amount of time it took for the death of
 								Stevens himself, which occurred twenty-one years after the
-								injection.
+								injection (vastly longer than the six months doctors had
+								previously told him he had left).
 							</Text>
 							<Text>
 								Eight years after Stevens's death, however, his ashes were
@@ -112,22 +116,15 @@ export default function PlutoniumExperiments() {
 								Still Their Guinea Pig," followed by a caption denouncing the
 								scientists for continuing their "ghoulish experiments."
 							</Text>
-						</VStack>
-						<MainHeading level={3} align="start" text="Elmer Allen" />
-						<VStack spacing={5} textAlign="justify">
 							<Text>
-								[Stuff about Elmer Allen] Lorem ipsum dolor sit amet,
-								consectetur adipiscing elit. Ut et metus vitae nulla hendrerit
-								blandit ut vitae nulla. Cras vitae massa purus. Mauris vel neque
-								nulla. Praesent interdum leo eu congue sodales. Integer et
-								luctus libero. Vivamus pulvinar ultricies semper. Aliquam erat
-								volutpat. Maecenas ac lectus lobortis, vestibulum sem at,
-								sollicitudin purus. Vivamus luctus luctus felis quis porttitor.
-								In viverra tellus erat, sed posuere ipsum mattis sed. Proin ut
-								convallis ante. Phasellus quis purus turpis. Phasellus pharetra
-								magna eget elit iaculis consequat. Quisque non venenatis elit.
-								Praesent convallis nunc sapien, ultrices dictum sapien sagittis
-								in. Ut molestie feugiat ullamcorper. Mauris.
+								In a case similar to that of Stevens, Elmer Allen ("CAL-3"), who
+								had worked as a railway porter, was falsely told by doctors that
+								he was terminally ill with bone cancer in his left knee. Upon
+								receiving surgery to amputate his leg in July 1947, doctors
+								clandestinely injected him with plutonium as well—though not
+								nearly as much as Stevens had received. Scientists collected
+								tissue samples from Allen to use for research surrounding the
+								nature of the spread of plutonium throughout the human body.
 							</Text>
 						</VStack>
 					</GridItem>
@@ -139,62 +136,74 @@ export default function PlutoniumExperiments() {
 							gap={2.5}
 						>
 							<GridItem colSpan={2}>
-								<Image
-									width="100%"
-									objectFit="contain"
-									src={require("../assets/albert stevens.png")}
-									alt="(Albert Stevens)"
-								/>
+								<VStack spacing={1} mb={3}>
+									<Image
+										width="100%"
+										objectFit="contain"
+										src={require("../assets/albert stevens.png")}
+										alt="(Albert Stevens)"
+									/>
+									<Text align="center" fontSize="sm" mt="5px" color="gray.500">
+										Albert Stevens.
+									</Text>
+								</VStack>
 							</GridItem>
 							<GridItem colSpan={2}>
-								<Image
-									width="100%"
-									objectFit="contain"
-									src={require("../assets/disappearing paper trail.png")}
-									alt="(Albert Stevens)"
-								/>
+								<VStack spacing={1} mb={3}>
+									<Image
+										width="100%"
+										objectFit="contain"
+										src={require("../assets/disappearing paper trail.png")}
+										alt='(Section from The Plutonium Experiments titled "The Disappearing Paper Trail")'
+									/>
+									<Text align="center" fontSize="sm" mt="5px" color="gray.500">
+										An excerpt from Welsome's series,{" "}
+										<Text as="i">The Plutonium Experiments</Text>, mysteriously
+										describing the secrecy of the trials.
+									</Text>
+								</VStack>
 							</GridItem>
-							<GridItem colSpan={2}>
-								<Image
-									width="100%"
-									objectFit="contain"
-									src={require("../assets/radiation killed doctors title.png")}
-									alt='(Headline that reads, "Radiation Killed Doctors Who Did Human Experiments")'
-								/>
+							<GridItem rowSpan={2}>
+								<VStack spacing={1}>
+									<Image
+										width="100%"
+										objectFit="contain"
+										src={require("../assets/albert stevens humanization.png")}
+										alt="(Eileen Welsome describes the story of Albert Stevens, demonstrating her humanizing strategy at portraying the stories of the plutonium experiments' victims)"
+									/>
+									<Text align="center" fontSize="sm" mt="5px" color="gray.500">
+										Another excerpt from{" "}
+										<Text as="i">The Plutonium Experiments</Text>, in which
+										Welsome illustrates Stevens's background, displaying her
+										humanizing strategy at portraying the various stories of the
+										experiments' victims.
+									</Text>
+								</VStack>
 							</GridItem>
 							<GridItem>
 								<Image
 									width="100%"
 									objectFit="contain"
-									src={require("../assets/joseph hamilton.png")}
+									src={require("../assets/joseph hamilton 1.png")}
 									alt="(Joseph Hamilton)"
 								/>
 							</GridItem>
 							<GridItem>
-								<VStack>
+								<VStack spacing={1}>
 									<Image
 										width="100%"
 										objectFit="contain"
-										src={require("../assets/patricia durbin quote.png")}
-										alt="(Quote from Patricia Durbin)"
+										src={require("../assets/joseph hamilton 2.jpeg")}
+										alt="(Joseph Hamilton)"
 									/>
 									<Text align="center" fontSize="sm" mt="5px" color="gray.500">
-										FILLER TEXT{" "}
-										<Link
-											color="teal.500"
-											href="https://en.wikipedia.org/w/index.php?title=Trinity_(nuclear_test)&oldid=1223946038"
-										>
-											(FILLER LINK)
-										</Link>
+										Joseph Hamilton, who carried out several illicit injections
+										at Strong Memorial Hospital and died twelve years after
+										injecting Stevens with plutonium.
 									</Text>
 								</VStack>
 							</GridItem>
 						</Grid>
-						<Flex direction="column">
-							<VStack spacing={2.5}>
-								<HStack spacing={2.5}></HStack>
-							</VStack>
-						</Flex>
 					</GridItem>
 					<GridItem order={{ base: 6, lg: 5 }}>
 						<Grid
@@ -204,13 +213,19 @@ export default function PlutoniumExperiments() {
 							gap={2.5}
 						>
 							<GridItem colSpan={2}>
-								<Image
-									width="100%"
-									objectFit="contain"
-									src={require("../assets/eda charlton quote.png")}
-									alt='(Quote reading "Do you suppose that stuff did anything to me?")'
-								/>
+								<VStack spacing={1} mb={3}>
+									<Image
+										width="100%"
+										objectFit="contain"
+										src={require("../assets/eda charlton quote.png")}
+										alt='(Quote reading "Do you suppose that stuff did anything to me?")'
+									/>
+									<Text align="center" fontSize="sm" mt="5px" color="gray.500">
+										A headline from Welsome's series.
+									</Text>
+								</VStack>
 							</GridItem>
+
 							<GridItem>
 								<Image
 									width="100%"
@@ -220,7 +235,7 @@ export default function PlutoniumExperiments() {
 								/>
 							</GridItem>
 							<GridItem>
-								<VStack>
+								<VStack spacing={1}>
 									<Image
 										width="100%"
 										objectFit="contain"
@@ -228,13 +243,7 @@ export default function PlutoniumExperiments() {
 										alt="(Eda Charlton)"
 									/>
 									<Text align="center" fontSize="sm" mt="5px" color="gray.500">
-										FILLER TEXT{" "}
-										<Link
-											color="teal.500"
-											href="https://en.wikipedia.org/w/index.php?title=Trinity_(nuclear_test)&oldid=1223946038"
-										>
-											(FILLER LINK)
-										</Link>
+										Eda Charlton.
 									</Text>
 								</VStack>
 							</GridItem>
@@ -244,18 +253,51 @@ export default function PlutoniumExperiments() {
 						<MainHeading level={3} align="start" text="Eda Charlton" />
 						<VStack spacing={5} textAlign="justify">
 							<Text>
-								[Stuff about Eda Charlton] Lorem ipsum dolor sit amet,
-								consectetur adipiscing elit. Ut et metus vitae nulla hendrerit
-								blandit ut vitae nulla. Cras vitae massa purus. Mauris vel neque
-								nulla. Praesent interdum leo eu congue sodales. Integer et
-								luctus libero. Vivamus pulvinar ultricies semper. Aliquam erat
-								volutpat. Maecenas ac lectus lobortis, vestibulum sem at,
-								sollicitudin purus. Vivamus luctus luctus felis quis porttitor.
-								In viverra tellus erat, sed posuere ipsum mattis sed. Proin ut
-								convallis ante. Phasellus quis purus turpis. Phasellus pharetra
-								magna eget elit iaculis consequat. Quisque non venenatis elit.
-								Praesent convallis nunc sapien, ultrices dictum sapien sagittis
-								in. Ut molestie feugiat ullamcorper. Mauris.
+								Eda Charlton ("HP-3") was an experimentee injected in November
+								1945. Her husband had just died from a tragic heart attack the
+								year before, her son had not yet come home from World War II,
+								and now, Charlton would be hospitalized for unusual swelling and
+								a rash that seemed to be caused by her nutrition. Welsome
+								writes, "At the time of her admission, Eda had been working at
+								the local Kodak plant. With her legs curled beneath her, she sat
+								on a high stool eight hours a day examining the camera shutters
+								whirling by. She ate her meals in the Kodak cafeteria. At night,
+								alone in her house, she snacked on peanuts and candy, then went
+								to bed early." Doctors theorized her swelling was caused by
+								hypoproteinemia, a condition in which a deficiency of protein
+								circulates through one’s blood.
+							</Text>
+							<Text>
+								After starting on the hospital's high-protein, low-salt diet,
+								her health greatly improved—yet she was soon fortuitously
+								transferred to another ward where, during a typical injection of
+								sterile saline, a doctor would swap out her needle for one
+								containing her exclusive dose of plutonium-239. Her primary
+								doctor, Christine Waterhouse, treated her for decades, yet
+								despite knowing of the plutonium injection, she never once
+								mentioned it in her medical records. Waterhouse first claimed
+								she did not do so because the information was classified until
+								1972—after which point, she changed the story, claiming that she
+								did not mention the injection in the records because none of
+								Charlton's medical issues appeared tied to it.
+							</Text>
+							<Text>
+								Once Charlton learned of the injection, her fear of cancer that
+								had already been plaguing her for years turned into sheer
+								paranoia. In 1946, she fell down her stairs, knocking herself
+								unconscious before later waking up bloody, dizzy, and nauseous.
+								Doctors took X-rays of her skull, concluding that she had simply
+								been concussed.
+							</Text>
+							<Text>
+								After the fall, Charlton suffered chronically from attacks of
+								vertigo, nausea, and fuzzy vision. Doctors doubted any
+								connection whatsoever between the injection and the ailments she
+								would deal with for the rest of her life. Yet, later testing
+								revealed that her blood cells manifested in bizarre shapes—a
+								stark indicator of the effects of plutonium radiation. And
+								scientists continued to use her for their studies on radiation
+								until her death.
 							</Text>
 						</VStack>
 					</GridItem>

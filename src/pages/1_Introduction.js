@@ -249,6 +249,90 @@ export default function Introduction() {
 							</Text>
 						</VStack>
 					</GridItem>
+					<GridItem order={8} colSpan={{ lg: 3 }} align="center">
+						<Grid
+							width={{ base: "100%", md: "95%", lg: "100%", xl: "95%" }}
+							gridAutoRows="min-content"
+							templateColumns={{ base: "1fr", lg: "repeat(5, 1fr)" }}
+							gap={2.5}
+						>
+							<GridItem>
+								<video
+									muted
+									autoPlay
+									loop
+									playsInline
+									disablePictureInPicture
+									width="100%"
+								>
+									<source
+										type="video/mp4"
+										src={require("../assets/videos/space-nukes-c.mp4")}
+									/>
+								</video>
+							</GridItem>
+							<GridItem>
+								<video
+									muted
+									autoPlay
+									loop
+									playsInline
+									disablePictureInPicture
+									width="100%"
+								>
+									<source
+										type="video/mp4"
+										src={require("../assets/videos/generic-test-c.mp4")}
+									/>
+								</video>
+							</GridItem>
+							<GridItem>
+								<video
+									muted
+									autoPlay
+									loop
+									playsInline
+									disablePictureInPicture
+									width="100%"
+								>
+									<source
+										type="video/mp4"
+										src={require("../assets/videos/generic-tests-2-c.mp4")}
+									/>
+								</video>
+							</GridItem>
+							<GridItem>
+								<video
+									muted
+									autoPlay
+									loop
+									playsInline
+									disablePictureInPicture
+									width="100%"
+								>
+									<source
+										type="video/mp4"
+										src={require("../assets/videos/generic-water-test-c.mp4")}
+									/>
+								</video>
+							</GridItem>
+							<GridItem>
+								<video
+									muted
+									autoPlay
+									loop
+									playsInline
+									disablePictureInPicture
+									width="100%"
+								>
+									<source
+										type="video/mp4"
+										src={require("../assets/videos/xray-c.mp4")}
+									/>
+								</video>
+							</GridItem>
+						</Grid>
+					</GridItem>
 				</Grid>
 				<NextPageButton pageIndex={1} />
 			</Box>
