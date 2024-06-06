@@ -1,12 +1,4 @@
-import {
-	Box,
-	Button,
-	Center,
-	Heading,
-	Text,
-	Tooltip,
-	VStack,
-} from "@chakra-ui/react";
+import { Box, Center, Heading, Text, Tooltip, VStack } from "@chakra-ui/react";
 
 import Navbar from "../components/Navbar";
 import NextPageButton from "../components/NextPageButton";

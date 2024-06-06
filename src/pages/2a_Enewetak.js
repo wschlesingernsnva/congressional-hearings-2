@@ -1,7 +1,5 @@
 import {
 	Box,
-	Center,
-	Flex,
 	Grid,
 	GridItem,
 	Image,
