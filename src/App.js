@@ -1,13 +1,26 @@
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+
 import { ChakraProvider } from "@chakra-ui/react";
 
-import theme from "./chakraTheme.js";
+import pageList from "./pageList.js";
 
-import Main from "./Main.js";
+import "./index.css";
+import chakraTheme from "./chakraTheme.js";
+
+const BASE_URL = process.env.PUBLIC_URL;
+
+const router = createBrowserRouter(
+	pageList.map((thisPage) => ({
+		path: thisPage.route,
+		element: <thisPage.element />,
+	})),
+	{ basename: BASE_URL }
+);
 
 export default function App() {
 	return (
-		<ChakraProvider theme={theme}>
-			<Main />
+		<ChakraProvider theme={chakraTheme}>
+			<RouterProvider router={router} />
 		</ChakraProvider>
 	);
 }

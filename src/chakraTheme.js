@@ -5,6 +5,6 @@ const config = {
 	useSystemColorMode: false,
 };
 
-const theme = extendTheme({ config });
+const chakraTheme = extendTheme({ config });
 
-export default theme;
+export default chakraTheme;
