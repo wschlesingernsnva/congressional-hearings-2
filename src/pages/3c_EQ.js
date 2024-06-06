@@ -94,7 +94,7 @@ export default function EQ() {
 					<Text>
 						<Text as="b">
 							Take efforts to ensure the ethicality of future experiments on
-							human subjects. Allocate time and other mechanisms for reviewing
+							human subjects: allocate time and other mechanisms for reviewing
 							studies posing potential risks to human subjects, and ensure
 							subjects know of the difference between research and treatment,
 							which agencies are conducting any given study, and what the
@@ -110,14 +110,6 @@ export default function EQ() {
 							of research ethics.
 						</Text>
 						"
-					</Text>
-					<Text as="b">
-						Take efforts to ensure the ethicality of future experiments on human
-						subjects: allocate time and other mechanisms for reviewing studies
-						posing potential risks to human subjects, and ensure subjects know
-						of the difference between research and treatment, which agencies are
-						conducting any given study, and what the financial implications of
-						participating in a study may be.
 					</Text>
 					<Text as="b">
 						Continue to interpret the ethics of research in the future through

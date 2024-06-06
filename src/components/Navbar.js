@@ -24,7 +24,7 @@ import { ChevronRightIcon } from "@chakra-ui/icons";
 import pageList from "../pageList.js";
 
 function DrawerLink(props) {
-	const indent = (props.page.path.length - 1) * 15;
+	const indent = 0; // (props.page.path.length - 1) * 15;
 	if (props.page.name === props.currentPage.name) {
 		return (
 			<Text textIndent={indent} color="gray.500">
