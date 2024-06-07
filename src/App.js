@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 
 import { ChakraProvider } from "@chakra-ui/react";
 
@@ -7,9 +7,7 @@ import pageList from "./pageList.js";
 import "./index.css";
 import chakraTheme from "./chakraTheme.js";
 
-const BASE_URL = process.env.PUBLIC_URL;
-
-const router = createBrowserRouter(
+const router = createHashRouter(
 	pageList.map((thisPage) => ({
 		path: thisPage.route,
 		element: <thisPage.element />,
@@ -17,8 +15,7 @@ const router = createBrowserRouter(
 			window.scrollTo(0, 0);
 			return null;
 		},
-	})),
-	{ basename: BASE_URL }
+	}))
 );
 
 export default function App() {
