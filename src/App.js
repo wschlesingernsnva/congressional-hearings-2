@@ -13,6 +13,10 @@ const router = createBrowserRouter(
 	pageList.map((thisPage) => ({
 		path: thisPage.route,
 		element: <thisPage.element />,
+		loader: async () => {
+			window.scrollTo(0, 0);
+			return null;
+		},
 	})),
 	{ basename: BASE_URL }
 );
