@@ -2,4 +2,4 @@
 
 ## GitHub Pages site
 
-https://wschlesingernsnva.github.io/congressional-hearings-2/
+https://wschlesingernsnva.github.io/congressional-hearings-2/#/
