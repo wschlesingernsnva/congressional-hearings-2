@@ -52,7 +52,7 @@ export default function PlutoniumExperiments() {
 								the Department of Energy, she eventually discovered the names of
 								the eighteen victims, met their relatives, and unearthed their
 								stories. In November 1993, she published "The Plutonium
-								Experiments," a series in{" "}
+								Experiment," a series in{" "}
 								<Text as="i">The Albuquerque Tribune</Text> detailing her
 								findings and revealing the stories of the experiments' victims.
 							</Text>
@@ -155,11 +155,11 @@ export default function PlutoniumExperiments() {
 										width="100%"
 										objectFit="contain"
 										src={require("../assets/disappearing paper trail.png")}
-										alt='(Section from The Plutonium Experiments titled "The Disappearing Paper Trail")'
+										alt='(Section from The Plutonium Experiment titled "The Disappearing Paper Trail")'
 									/>
 									<Text align="center" fontSize="sm" mt="5px" color="gray.500">
 										An excerpt from Welsome's series,{" "}
-										<Text as="i">The Plutonium Experiments</Text>, mysteriously
+										<Text as="i">The Plutonium Experiment</Text>, mysteriously
 										describing the secrecy of the trials.
 									</Text>
 								</VStack>
