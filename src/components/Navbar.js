@@ -24,16 +24,15 @@ import { ChevronRightIcon } from "@chakra-ui/icons";
 import pageList from "../pageList.js";
 
 function DrawerLink(props) {
-	const indent = 0; // (props.page.path.length - 1) * 15;
 	if (props.page.name === props.currentPage.name) {
 		return (
-			<Text textIndent={indent} color="gray.500">
+			<Text color="gray.500">
 				<ChevronRightIcon /> {props.page.name}
 			</Text>
 		);
 	} else {
 		return (
-			<Text textIndent={indent}>
+			<Text>
 				<ChevronRightIcon color="gray.500" />{" "}
 				<Link as={ReactRouterLink} to={props.page.route}>
 					{props.page.name}
